@@ -1,0 +1,69 @@
+.App {
+  
+  background-image: url("/public/BG.JPG") !important;
+
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #0f0f10d6 !important;
+
+}
+.navv{
+  background-color: #24252543;
+}
+.jfj{
+  width: 70% !important;
+  height: 50px !important;
+}
+.asas{
+  margin-top: 12% !important;
+  padding-bottom: 20% !important;
+}
+.btn{
+  background-color: #f7c82ec9;
+}
+.btn:hover{
+  background-color: #f7c82ec9;
+}
+.jdjjd{
+  /* mix-blend-mode: color-dodge !important; */
+  width: 50% !important;
+  display: flex !important;
+  justify-content: end !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
